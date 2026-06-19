@@ -4,21 +4,21 @@ import '../styles/Image.css';
 const Volunteer = () => {
     return <div className="page-content">
         <h1>Volunteer</h1>
-        <img src={'/volunteer/helpage-india.png'} alt='help-age-india-logo' className="image-100" />
+        <img src={'/volunteer/red-cross.png'} alt='red-cross-logo' className="image-100" />
         <p>
-            HelpAge India is a charity in India that has worked with and for disadvantaged elderly for nearly four decades. It has been running in India since 1978. There is an estimated 106 million elderly in India. HelpAge advocates for their needs, such as Universal Pension, quality healthcare and abuse faced by senior citizens. It advocates for elder-friendly policies and works towards their implementation. It also works with Senior Citizens Associations to understand the needs of the disadvantaged elderly by working with them.
+            Canadian Red Cross is a humanitarian organization that provides emergency assistance, disaster relief and education in communities across Canada. They are part of the International Red Cross and Red Crescent Movement, which is the world's largest humanitarian network. Canadian Red Cross has 13,000+ volunteers across Canada. They have provided $81M+ in financial assitance to 28,400+ households in Canada.
         </p>
         <p>
-            The aim is to help elders live active, dignified and healthier lives. HelpAge's focus over the years has moved from Welfare to Development.
+            They provide relief to people affected by disasters and emergencies, support vulnerable communities, and promote humanitarian values. They also provide first aid training and education to help people prepare for emergencies.
         </p>
         <figure>
-            <img src={'/volunteer/helping-elders.jpg'} alt='covid19-relief-india' className="image-80" />
-            <figcaption>Distribution of family Survival Kits for senior citizens in Kannigapuram, Chennai, India during COVID-19 pandemic.</figcaption>
+            <img src={'/volunteer/red-cross-ebola.jpg'} alt='ebola-relief-red-cross' className="image-80" />
+            <figcaption>Red Cross volunteers wearing personal protective equipment (PPE) to perform a safe and dignified burial during an active Ebola outbreak.</figcaption>
         </figure>
         <p>
-            It provides elderly relief through various interventions for the elderly. It features one of the most extensive mobile healthcare programs through its Mobile Healthcare Units in India. It provides free healthcare services to destitute elders. It also helps elders earn their livelihood through the formation of Elder-Self-Help Groups, making them self-reliant. It conducts cataract surgeries to restore their sight. It's Support-a-Gran program looks after their basic needs. It also features Elder Helplines across India. It provides relief and rehabilitation for elders post disasters.
+            They are committed to helping people in need, regardless of their background or circumstances.
         </p>
-        <Button href="https://www.helpageindia.org/donate/">Donate</Button>
+        <Button href="https://www.redcross.ca/">Donate</Button>
         <br /><br />
         <hr></hr>
         <img src={'/volunteer/bluesea.jpg'} alt='bluesea-foundation-logo' className="image-100" />
@@ -56,6 +56,23 @@ const Volunteer = () => {
 
         </p>
         <Button href="https://secure.sickkidsfoundation.com/donate?_ga=2.74558546.1389146586.1663201382-1329499667.1663201382">Donate</Button>
+        <br /><br />
+        <hr></hr>
+        <img src={'/volunteer/helpage-india.png'} alt='help-age-india-logo' className="image-100" />
+        <p>
+            HelpAge India is a charity in India that has worked with and for disadvantaged elderly for nearly four decades. It has been running in India since 1978. There is an estimated 106 million elderly in India. HelpAge advocates for their needs, such as Universal Pension, quality healthcare and abuse faced by senior citizens. It advocates for elder-friendly policies and works towards their implementation. It also works with Senior Citizens Associations to understand the needs of the disadvantaged elderly by working with them.
+        </p>
+        <p>
+            The aim is to help elders live active, dignified and healthier lives. HelpAge's focus over the years has moved from Welfare to Development.
+        </p>
+        <figure>
+            <img src={'/volunteer/helping-elders.jpg'} alt='covid19-relief-india' className="image-80" />
+            <figcaption>Distribution of family Survival Kits for senior citizens in Kannigapuram, Chennai, India during COVID-19 pandemic.</figcaption>
+        </figure>
+        <p>
+            It provides elderly relief through various interventions for the elderly. It features one of the most extensive mobile healthcare programs through its Mobile Healthcare Units in India. It provides free healthcare services to destitute elders. It also helps elders earn their livelihood through the formation of Elder-Self-Help Groups, making them self-reliant. It conducts cataract surgeries to restore their sight. It's Support-a-Gran program looks after their basic needs. It also features Elder Helplines across India. It provides relief and rehabilitation for elders post disasters.
+        </p>
+        <Button href="https://www.helpageindia.org/donate/">Donate</Button>
         <br /><br />
         <hr></hr>
     </div>;

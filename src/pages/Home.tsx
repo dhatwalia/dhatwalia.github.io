@@ -7,7 +7,7 @@ const Home = () => {
         <h1>Prajwal Dhatwalia</h1>
         <img src={'/prajwal.jpg'} alt='my-pic' className="image-60" />
         <p>
-            Hello, world! I am a Software Engineer with multiple years of experience in FinTech, CryptoTech, MarTech and Telematics using MERN stack, Machine Learning and Software Engineering.
+            Hello, world! I am a Software Engineer with multiple years of experience in FinTech, AutoTech and AI using Python, Django and React.
         </p>
         <p>
             I love to work with Typescript, Python, Java, Rust and C++.
