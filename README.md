@@ -1,35 +1,48 @@
-# Prajwal
+# Dhatwalia
 
-## Sequence of operations from setup to deploy
+## Set up and local run
 
-### `npm i`
+1. Install all project dependencies for development mode
+    ```bash
+    npm i
+    ```
 
-Install all project dependencies for development mode.
+2. Run the app in the development mode
+    ```bash
+    npm run dev
+    ```
+    Open [http://localhost:5173](http://localhost:5173) to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
 
-### `npm run dev`
+## Deployment
 
-Run the app in the development mode.\
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+1. Prepare the site for deployment
+    ```bash
+    npm run build
+    ```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2. Preview the site before pushing to production [Optional]
+    ```bash
+    npm run preview
+    ```
+    Preview the app in the production mode.\
+    Open [http://localhost:4173](http://localhost:4173) to view it in the browser.
 
-### Edit version number in `package.json` [Optional]
+3. Push the code
+    ```bash
+    git push
+    ```
+    This triggers an automatic deployment of the website on Github Pages.
 
-Edit `package.json` before each deployment.
+## Tagging commits for release (Optional)
 
-### `git tag -a 2.7 -m "2.7"` [Optional]
+1. Edit version number in `package.json`
 
-Create an annotated tag in the repository local.
+2. Create an annotated tag in the repository local
+    ```bash
+    git tag -a 2.7 -m "2.7"
+    ```
 
-### `git push origin 2.7` [Optional]
-
-Pushes the annotated tag created from the previous command to github.
-
-### `npm run build`
-
-Prepare the site for deployment.
-
-### `npm run deploy`
-
-Deploy the website. This step is sufficient to delpoy the website. 
+3. Push the annotated tag created from step 2 to github
+    ```bash
+    git push origin 2.7
+    ```
